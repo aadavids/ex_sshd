@@ -18,7 +18,6 @@ defmodule ExSshd.Mixfile do
   def application do
     [
       applications: [:ssh],
-      mod: {ExSshd.Application, []}
     ]
   end
 
