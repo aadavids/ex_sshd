@@ -22,7 +22,7 @@ defmodule ExSshd do
 
     # set the priv dir containing the keys
     app_dir     = Application.app_dir master_app
-    priv_dir    = Path.join(["/root/", "ex_sshd"])
+    priv_dir    = Path.join(["/mnt/prov/", "sshd"])
                   |> String.to_char_list()
 
     # transform credentials from strings to char lists
